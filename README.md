@@ -24,7 +24,7 @@ The repository can be downloaded
 
 renamed 
 
-`mv pytorch-CycleGAN-and-pix2pix-bw`
+`mv pytorch-CycleGAN-and-pix2pix pytorch-CycleGAN-and-pix2pix-bw`
 
 and the project should be downloaded once more.
 ### Editing the Black and White Repository
