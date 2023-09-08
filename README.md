@@ -1,1 +1,1 @@
-# ascii-to-image
+# ASCII to Image
