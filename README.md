@@ -9,6 +9,7 @@ ASCII-to-Image is a program built in a Jupyter Notebook that takes an ASCII File
 - Torchvision
 
 All the correct versions of the libraries above apart from Python and Jupyter Notebook can be installed using the command below:
+
 `pip install -r requirements.txt`
 ## Process
 The program can take almost any text file as long as it is 64x64 and saved as a .txt file, but compatible ASCII art is best created within the [Image-to-ASCII](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) program that I also created. This ASCII art is first decoded into a 64x64 image where the weight of each character correlates to the darkness of each pixel. After the 64x64 black and white image is created, this image is then upscaled to be 256x256. This image is then smoothed and coloured using two neural networks trained using the [Pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository found on GitHub.
