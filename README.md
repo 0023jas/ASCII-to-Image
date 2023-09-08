@@ -14,6 +14,7 @@ All the correct versions of the libraries above apart from Python and Jupyter No
 The program can take almost any text file as long as it is 64x64 and saved as a .txt file, but compatible ASCII art is best created within the [Image-to-ASCII](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) program that I also created. This ASCII art is first decoded into a 64x64 image where the weight of each character correlates to the darkness of each pixel. After the 64x64 black and white image is created, this image is then upscaled to be 256x256. This image is then smoothed and coloured using two neural networks trained using the [Pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository found on GitHub.
 
 The full conversion process from a small rough image to a full colored image is ✨magical✨
+
 ![Alt Text](documentation-support/supporting-gif.gif)
 ## Training
 The training process consists of using the [Pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository alongside a modified version of that same repository that only works with black and white images. The black and white version of that repository is used to create the model that takes an image from pixelated to a smooth image. The standard version of the repository takes this black and white image and outputs a colored image. 
