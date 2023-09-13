@@ -8,7 +8,7 @@ ASCII-to-Image is a program built in a Jupyter Notebook that takes an ASCII File
 - Torch
 - Torchvision
 
-All the correct versions of the libraries above apart from Python and Jupyter Notebook can be installed using the command below:
+All the correct versions of the libraries above apart from Python and Jupyter Notebook can be installed using the command:
 
 `pip install -r requirements.txt`
 ## Process
